@@ -1,0 +1,87 @@
+body {
+  background: #FFDDD2;
+  color: #E29578;
+  font-family: cursive;
+  font-size: 17px;
+  font-weight: lighter;
+}
+
+h1 {
+  color: #E29578;
+  font-weight: 900;
+  font-family: "Lucida", sans-serif;
+}
+h2 {
+  color: #006D77;
+  font-family: "Lucida", sans-serif;
+}
+
+h3 {
+  font-family: "Lucida", sans-serif;
+}
+a {
+  font-family: 'Lucida', sans-serif;
+}
+a:hover {
+  color: black;
+}
+
+.my-container {
+  width: 800px;
+  margin: 30px auto;
+}
+
+.my-card {
+  text-align: center;
+  box-shadow: 3px 6px 11px;
+  background-color: #EDF6F9;
+  border-radius: 30px;
+  margin: 16px 10px;
+  padding: 15px;
+}
+.my-img {
+  border-radius: 30%;
+  width: 30%;
+}
+
+.my-btn {
+  border-radius: 30px;
+  background-color: #83C5BE;
+  padding: 10px 10px;
+  color: white;
+}
+.my-btn:hover {
+  background-color: #006D77;
+  color: white;
+}
+.follow-me {
+  padding-right: 50px;
+}
+
+.follow-me li {
+  display: inline;
+  padding: 5px;
+}
+.follow-me i {
+  font-size: 35px;
+  color: #83C5BE;
+}
+.follow-me i:hover {
+  color: #006D77;
+}
+
+@media (max-width: 960px) {
+  .my-container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .my-container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .my-container {
+    width: 300px;
+  }
+}
